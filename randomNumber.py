@@ -25,13 +25,13 @@ def get_colour_by_dice(spots):
 
 if __name__ == "__main__":
     outputfilename = "randomNumber"
-    rolls = []
+    roll_list = []
     for i in range(6):
         roll = get_random_number(1, 6)
-        rolls.append(roll)
+        rolls_list.append(roll)
     color = get_colour_by_dice(roll)
     write_log_file(outputfilename, color)
-    print(rolls)
+    print(rolls_list)
     sys.stdout.flush()
-    plt.bar(range(6),rolls)
+    plt.bar(range(6),rolls_list)
     plt.show()
