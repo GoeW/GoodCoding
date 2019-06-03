@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # team: Marcel, Gorden, 
+# Expert name: unknown
 
 import random
 import time
