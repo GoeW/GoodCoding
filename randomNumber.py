@@ -33,5 +33,5 @@ if __name__ == "__main__":
     write_log_file(outputfilename, color)
     print(rolls_list)
     sys.stdout.flush()
-    plt.bar(range(6),rolls_list)
+    plt.barh(range(6),rolls_list)
     plt.show()
